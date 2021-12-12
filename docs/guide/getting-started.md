@@ -13,10 +13,11 @@ Download on GitHub: `Clone or download` -> `Download ZIP`
 or clone it
 
 ```bash
-$ git clone https://github.com/mtobeiyf/vuepress-homepage
+$ git clone https://github.com/cterence/vuepress-homepage
 ```
 
 ### Prepararation
+
 - You should have [Node.js](https://nodejs.org)**>=8.0.0** installed at first.
 - [Yarn](https://yarnpkg.com) is also needed for package management.
 
@@ -26,7 +27,7 @@ You can check by running commands: `node --version`, `npm --version` and `yarn -
 
 ```bash
 # Get into the directory
-$ cd vuepress-homepage 
+$ cd vuepress-homepage
 
 # Install dependencies
 $ yarn # or npm install
@@ -45,7 +46,7 @@ To generate your homepage as a static site, run:
 
 ```bash
 $ yarn run build
-``` 
+```
 
 This will build your site under the `dist` directory. Now you can deploy the files under `dist` directory to any web hosts provider or your own server. If you got stuck, feel free to open an issue or search it on google.
 
@@ -58,7 +59,7 @@ For more available instructions, have a look at the [Deploying](https://vuepress
 
 ### GitHub Pages
 
-Create a repository, clone it to your local machine. And copy files in `dist` to your local repository folder. 
+Create a repository, clone it to your local machine. And copy files in `dist` to your local repository folder.
 
 Push it to GitHub with [GitHub Desktop](https://pages.github.com/) or command line and done.
 
