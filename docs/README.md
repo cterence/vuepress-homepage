@@ -16,61 +16,62 @@ socials:
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com/in/terencechateigne/in/terencechateigne
 
-cv: https://terencec_homelab.gitlab.io/ci-cv/
+cv: https://cv.terence.cloud
 bio: SRE at Padok
-email: terence.chateigne (at) posteo (dot) net
+email: terence.chateigne(at)posteo(dot)net
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## About me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors.
+I'm an Engineer in Computer Science, specialized in Cloud and Infrastructure. I work as a Site Reliability Engineer at [Padok](https://padok.fr) since February 2021.
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+I'm a tech person. I love tinkering on the systems I own and use everyday. My favorite tech topics are : hacking, infrastructure-as-code, containers, blockchain and open source software.
+
+My hobbies include : building mechanical keyboards, solving Rubik's cubes, digging into obscure music genres and practicing archery.
+
+Feel free to check out my [Sens Critique](https://www.senscritique.com/Diluvio) profile, we may like something in common.
 
 ## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-  Sept 1991 - 1997
+### Work
 
-## Projects
+- 💻 **SRE at Padok** <br/>
+  Building and maintaining cloud infrastructures. <br/>
+  Tools : AWS, Terraform, Kubernetes, GitLabCI. <br/>
+  Internship during 6 month, working full-time since Sept. 2021. <br/>
+  Full-time | Feb. 2021 - Today | [Website](https://padok.fr)
 
-[→ Full list](/projects/)
+- 💻 **Full-stack Developer at Pricemoov** <br/>
+  Web development and data engineering. <br/>
+  I continued working on the same topics as a freelance during 4 months after my internship. <br/>
+  Tools : React.js, TypeScript, Django, Dataiku. <br/>
+  Internship | Aug. 2019 - Feb. 2020 | [Website](https://pricemoov.com)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+- 💻 **Software Developer intern at Idemia** <br/>
+  Web and application development for identity projects. <br/>
+  Tools : JavaScript, Node.js, C#. <br/>
+  Internship | Apr. 2018 - June 2018 | [Website](https://idemia.com)
 
-**The Making of Térence Chateigné's Wand**
+### Studies
 
-Harry P., Hermione G., _et al_
+- 🇫🇷 **University of Technology of Compiègne** <br/>
+  Engineering Degree in Computer Science, specialized in Systems and Networks. <br/>
+  Topics : cyber-resilience, networks, algorithms, data analysis, web development. <br/>
+  2018 - 2021 | [Website](https://www.utc.fr)
 
-Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-
-[[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
-
-</ProjectCard>
-
-<ProjectCard hideBorder=true>
-
-**Térence Chateigné and the Deathly Hallows**
-
-In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-[[Link](https://www.google.com)]
-
-</ProjectCard>
-
-## Awards & Honors
-
-### Contests
-
-- First place in **The Hogwarts House Cup**
+- 🇫🇷 **IUT of Villetaneuse** <br/>
+  Technology degree in Computer Science <br/>
+  Topics : programming, OOP, web development, economics, mathematics. <br/>
+  2016 - 2018 | [Website](https://iutv.univ-paris13.fr)
 
 <!-- Custom style for this page -->
 
 <style lang="stylus">
 
 .theme-container.home-page .page
+  padding-bottom 0
   font-size 14px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   p

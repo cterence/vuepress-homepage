@@ -1,63 +1,58 @@
 <template>
   <div class="about-card">
     <div class="avatar">
-      <img :src="$withBase(data.avatar)" alt="">
+      <img :src="$withBase(data.avatar)" alt="" />
     </div>
     <div class="card">
       <div class="bio">
         <div class="head">
           <span>
-            {{data.head}}
+            {{ data.head }}
           </span>
         </div>
         <div class="info">
           <span>
-            {{data.info}}
+            {{ data.info }}
           </span>
         </div>
         <div class="description">
           <slot></slot>
         </div>
       </div>
-      <div class="interests">
-        <span>
-          {{data.interests}}
-        </span>
-      </div>
       <div class="socials">
         <div v-for="item in data.socials">
           <a :href="item.link" target="_blank">
-            <img :src="$withBase(item.icon)" :alt="item.title"
-            :title="item.title" />
+            <img
+              :src="$withBase(item.icon)"
+              :alt="item.title"
+              :title="item.title"
+            />
           </a>
         </div>
       </div>
-      <div class="actions">
+      <!-- <div class="actions">
         <div v-for="item in data.actions">
-          <a :href="item.link" class="button"
-              :target="item.link.startsWith('/')?'':'_blank'">
-            {{item.text}}
+          <a
+            :href="item.link"
+            class="button"
+            :target="item.link.startsWith('/') ? '' : '_blank'"
+          >
+            {{ item.text }}
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
-
-    <!-- <div class="footer" v-if="data.footer">
-      {{ data.footer }}
-    </div> -->
   </div>
 </template>
 
-
 <script>
-
 export default {
-  props: ['frontmatter'],
+  props: ["frontmatter"],
   computed: {
     data() {
       return this.frontmatter;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -70,7 +65,7 @@ export default {
   flex-direction column
   align-items center
 
-  .avatar 
+  .avatar
     position relative
     z-index 1
     img
@@ -86,12 +81,12 @@ export default {
     position relative
     top -75px
     padding-top 75px
-    margin-left auto 
-    margin-right auto 
+    margin-left auto
+    margin-right auto
     background #fff
     box-shadow 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius 0.3rem
-    text-align center 
+    text-align center
     .bio
       padding 1em
       .head
@@ -119,8 +114,8 @@ export default {
       display flex
       flex-direction: row
       justify-content: center
-      flex-wrap wrap 
-      img 
+      flex-wrap wrap
+      img
         width 32px
         margin 1em
         cursor pointer
@@ -155,5 +150,4 @@ export default {
       text-align center
       color lighten($footColor, 25%)
       margin-top auto
-
 </style>
