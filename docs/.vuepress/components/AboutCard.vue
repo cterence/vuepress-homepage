@@ -97,7 +97,7 @@ export default {
         font-size 1em
         color rgba(0,0,0,.4)
       .description
-        text-align justify
+        text-align left
         p
           padding 0.8em 0.5em 0
           line-height normal

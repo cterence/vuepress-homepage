@@ -28,7 +28,7 @@ I'm an Engineer in Computer Science, specialized in Cloud and Infrastructure. I 
 
 I'm a tech person. I love tinkering on the systems I own and use everyday. My favorite tech topics are : hacking, infrastructure-as-code, containers, blockchain and open source software.
 
-My hobbies include : building mechanical keyboards, solving Rubik's cubes, digging into obscure music genres and practicing archery.
+My hobbies include : building mechanical keyboards, solving Rubik's cubes, practicing archery and digging into obscure music genres.
 
 Feel free to check out my [Sens Critique](https://www.senscritique.com/Diluvio) profile, we may like something in common.
 
@@ -42,7 +42,7 @@ Feel free to check out my [Sens Critique](https://www.senscritique.com/Diluvio) 
 
 .theme-container.about-page .page
   padding-bottom 0
-  background-color #e6ecf0
+  background-color #fafbfc
   min-height calc(100vh)
   
   .last-updated

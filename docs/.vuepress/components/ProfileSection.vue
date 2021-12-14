@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
     <div v-if="data.profile" class="image">
-      <img :src="$withBase(data.profile)" alt="">
+      <img :src="$withBase(data.profile)" alt="" />
     </div>
     <div class="info">
       <div class="name">
@@ -12,10 +12,13 @@
       </div>
       <div class="socials">
         <div v-for="item in data.socials">
-            <a :href="item.link" target="_blank">
-              <img :src="$withBase(item.icon)" :alt="item.title"
-              :title="item.title" />
-            </a>
+          <a :href="item.link" target="_blank">
+            <img
+              :src="$withBase(item.icon)"
+              :alt="item.title"
+              :title="item.title"
+            />
+          </a>
         </div>
       </div>
       <div class="contact">
@@ -32,13 +35,13 @@
 
 <script>
 export default {
-  props: ['image', 'cv', 'frontmatter'],
+  props: ["image", "cv", "frontmatter"],
 
   computed: {
     data() {
       return this.frontmatter;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -66,7 +69,7 @@ export default {
     .socials
       display flex
       flex-direction row
-      img 
+      img
         width 1.3rem
         margin 0 0.6rem 0 0
         cursor pointer
@@ -82,5 +85,5 @@ export default {
 @media (max-width: $MQMobileNarrow)
   .profile
     .image
-      max-width 100px
+      display none
 </style>
