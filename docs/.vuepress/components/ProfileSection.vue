@@ -51,9 +51,9 @@ export default {
 .profile
   display flex
   flex-direction row
-  align-items stretch
+  align-items center
   .image
-    max-width 120px
+    max-width 150px
     img
       border-radius 50%
       padding 2px
@@ -84,6 +84,10 @@ export default {
 
 @media (max-width: $MQMobileNarrow)
   .profile
-    .image
-      display none
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    .info
+      padding-left 0
 </style>

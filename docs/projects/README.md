@@ -104,7 +104,7 @@ Today, it's fully managed by ArgoCD and mainly serves as a sandbox. Here are the
 
 <ProjectCard>
 
-**✏️ Blogging**
+### ✏️ Blogging
 
 At Padok, everybody writes articles on the [DevOps blog](https://www.padok.fr/blog). I wrote two articles which are :
 
@@ -117,7 +117,7 @@ Go ahead and read them if the topics sound appealing to you !
 
 <ProjectCard>
 
-**🎥 YouTube**
+### 🎥 YouTube
 
 There is some amazing content on YouTube, and I would like to share some of my favorite channels in no particular order :
 
